@@ -1,0 +1,16 @@
+
+###> symfony/framework-bundle ###
+.env
+/public/bundles/
+/var/
+/vendor/
+###< symfony/framework-bundle ###
+
+###> https://www.gitignore.io/api/phpstorm ###
+.idea/
+.DS_Store
+###< https://www.gitignore.io/api/phpstorm ###
+
+###> lexik/jwt-authentication-bundle ###
+/config/jwt/*.pem
+###< lexik/jwt-authentication-bundle ###
