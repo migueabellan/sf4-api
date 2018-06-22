@@ -1,3 +1,7 @@
+#index:
+#    path: /
+#    controller: App\Controller\IndexController::index
+
 app.swagger_ui:
     path: /api/doc
     methods: GET
