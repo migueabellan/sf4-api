@@ -17,8 +17,7 @@ class IndexController extends Controller
      */
     public function index()
     {
-        echo "IndexController"; die;
-        return $this->redirectToRoute('api_doc');
+        return $this->redirect('api/doc');
     }
 
 }
