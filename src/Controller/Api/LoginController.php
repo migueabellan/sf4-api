@@ -52,7 +52,7 @@ class LoginController extends FOSRestController
      *     schema={}
      * )
      *
-     * @SWG\Tag(name="Partner")
+     * @SWG\Tag(name="Login")
      */
     public function getLoginCheckAction() { }
 

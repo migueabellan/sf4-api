@@ -2,7 +2,7 @@ nelmio_api_doc:
     documentation:
         info:
             title: API REST full
-            description: RESTful API
+            description: API REST full
             version: 1.0.0
     routes: # to filter documented routes
         path_patterns:
