@@ -1,4 +1,4 @@
-# Symfony 4 - RESTfull API 
+# Symfony 4 - RESTful API 
 
 
 ## Version
