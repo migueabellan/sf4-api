@@ -44,6 +44,10 @@ $ php bin/console doctrine:database:create
 $ php bin/console doctrine:schema:update --force
 ```
 
+Run symfony
+```sh
+$ php bin/console server:run
+```
 
 ## API REST full
 
