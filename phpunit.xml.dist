@@ -14,7 +14,13 @@
         <env name="APP_DEBUG" value="1" />
         <env name="APP_SECRET" value="s$cretf0rt3st" />
         <env name="SHELL_VERBOSITY" value="-1" />
+        
         <!-- define your env variables for the test env here -->
+        <env name="JWT_PRIVATE_KEY_PATH" value="config/jwt/private.pem" />
+        <env name="JWT_PUBLIC_KEY_PATH" value="config/jwt/public.pem" />
+        <env name="JWT_PASSPHRASE" value="7b234cb5821a7bcb537cd2a4387f97db" />
+        <env name="JWT_TOKENTTL" value="3600" />
+
     </php>
 
     <testsuites>

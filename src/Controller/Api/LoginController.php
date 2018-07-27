@@ -32,6 +32,11 @@ class LoginController extends FOSRestController
      * )
      *
      * @SWG\Response(
+     *     response=401,
+     *     description="Bad credentials"
+     * )
+     * 
+     * @SWG\Response(
      *     response=500,
      *     description="User was not logged in successfully"
      * )

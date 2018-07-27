@@ -49,7 +49,7 @@ Run symfony
 $ php bin/console server:run
 ```
 
-## API REST full
+## API REST ful
 
 ```sh
 localhost:8000/api/doc
