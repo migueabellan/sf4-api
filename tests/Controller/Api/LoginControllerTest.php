@@ -36,11 +36,6 @@ class LoginControllerTest extends WebTestCase
         );
         $this->assertEquals(200, $client->getResponse()->getStatusCode());
         $data = json_decode($client->getResponse()->getContent(), true);
-        $this->assertEquals('200', $data['code']);
-        $this->assertEquals('Bad credentials', $data['token']);
-
-        //var_dump($data);
+        $this->assertArrayHasKey('token', $data);
     }
-
-    // https://github.com/lexik/LexikJWTAuthenticationBundle/blob/master/Resources/doc/3-functional-testing.md
 }

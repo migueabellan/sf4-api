@@ -21,6 +21,7 @@
         <env name="JWT_PASSPHRASE" value="7b234cb5821a7bcb537cd2a4387f97db" />
         <env name="JWT_TOKENTTL" value="3600" />
 
+        <env name="DATABASE_URL" value="mysql://db_user:db_password@127.0.0.1:3306/db_name" />
     </php>
 
     <testsuites>
