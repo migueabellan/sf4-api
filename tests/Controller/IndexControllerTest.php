@@ -9,9 +9,17 @@ class IndexControllerTest extends WebTestCase
     public function testIndex()
     {
         $client = static::createClient();
+
         $crawler = $client->request('GET', '/');
 
-        $this->assertTrue($client->getResponse()->isRedirect());
         $this->assertEquals(302, $client->getResponse()->getStatusCode());
+    }
+
+    public function testIndexRedirect()
+    {
+        $client = static::createClient();
+        $crawler = $client->request('GET', '/api/doc');
+
+        $this->assertEquals(200, $client->getResponse()->getStatusCode());
     }
 }
