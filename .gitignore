@@ -1,6 +1,7 @@
 
 ###> symfony/framework-bundle ###
 .env
+.phpunit.xml
 /public/bundles/
 /var/
 /vendor/
@@ -14,6 +15,12 @@
 ###> lexik/jwt-authentication-bundle ###
 /config/jwt/*.pem
 ###< lexik/jwt-authentication-bundle ###
+
 ###> symfony/web-server-bundle ###
 /.web-server-pid
 ###< symfony/web-server-bundle ###
+
+###> symfony/phpunit-bridge ###
+.phpunit
+/phpunit.xml
+###< symfony/phpunit-bridge ###
